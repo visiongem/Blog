@@ -1,0 +1,84 @@
+baseURL = 'https://visiongem.github.io/Blog/'
+locale = 'zh-cn'
+defaultContentLanguage = 'zh'
+title = "Yane's Blog"
+theme = 'PaperMod'
+
+# 分页
+paginate = 10
+
+# 摘要长度
+summaryLength = 120
+
+# 启用 emoji
+enableEmoji = true
+
+# 代码高亮
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    noClasses = false
+
+# 菜单
+[[menus.main]]
+  name = '归档'
+  url = '/archives/'
+  weight = 10
+
+[[menus.main]]
+  name = '标签'
+  url = '/tags/'
+  weight = 20
+
+[[menus.main]]
+  name = '搜索'
+  url = '/search/'
+  weight = 25
+
+[[menus.main]]
+  name = '关于'
+  url = '/about/'
+  weight = 30
+
+# PaperMod 主题配置
+[params]
+  # 作者
+  author = 'Yane'
+
+  # 首页显示模式：可切换列表/卡片
+  defaultTheme = 'auto'    # auto / light / dark
+  disableThemeToggle = false
+
+  # 首页文章列表显示摘要
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  ShowToc = true
+  TocOpen = false
+
+  # 首页不显示全部文章，用 Read More
+  ShowFullTextinRSS = false
+
+  # 搜索
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ['title', 'permalink', 'summary', 'content']
+
+  # 社交链接
+  [params.social]
+    github = 'visiongem'
+
+  # 编辑链接
+  [params.editPost]
+    URL = 'https://github.com/visiongem/Blog/tree/main/content'
+    Text = '编辑'
+    appendFilePath = true
