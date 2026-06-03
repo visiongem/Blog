@@ -79,6 +79,6 @@ enableEmoji = true
 
   # 编辑链接
   [params.editPost]
-    URL = 'https://github.com/visiongem/Blog/tree/main/content'
+    URL = 'https://github.com/visiongem/Blog/tree/master/content'
     Text = '编辑'
     appendFilePath = true
