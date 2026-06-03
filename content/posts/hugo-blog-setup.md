@@ -1,7 +1,7 @@
 ---
 title: "从 Hexo 到 Hugo：一个极简技术博客的搭建笔记"
 date: 2026-06-03T22:00:00+08:00
-draft: true
+draft: false
 categories: ["工具"]
 tags: ["Hugo", "GitHub Pages", "博客"]
 ---
