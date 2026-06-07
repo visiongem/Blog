@@ -3,7 +3,7 @@ title: "Android 开发里如何理解 ViewModel？"
 date: 2026-06-06T10:00:00+08:00
 draft: false
 categories: ["Android"]
-tags: ["Hugo", "GitHub Pages", "博客"]
+tags: ["Android", "博客"]
 ---
 
 > 一篇关于 Android ViewModel 的学习笔记——它的身世、它解决的问题，以及那些被名字带偏的认知。
