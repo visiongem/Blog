@@ -2,8 +2,8 @@
 title: "DeFi + RWA：链上金融的「发动机」与「燃油」"
 date: 2026-06-09T10:00:00+08:00
 draft: false
-categories: ["Block"]
-tags: ["区块链", "博客"]
+categories: ["区块链"]
+tags: ["区块链", "DeFi", "RWA"]
 ---
 
 ![](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/blockchain/%7B%7Bdate%7D%7D/rwa_defi0.png)
@@ -174,3 +174,9 @@ DeFi 打开了这扇门，RWA 正在把里面的房间布置起来。
 ---
 
 *本文写于 2026 年 6 月，数据来源包括 DeFiLlama、CoinGecko、Blockonomi、ainvest.com 等。RWA 与 DeFi 赛道均变化极快，数据可能已有更新，请以最新信息为准。*
+
+---
+
+**延伸阅读**：
+- [聊聊 RWA，它到底是什么？](./rwa-start/)
+- [聊聊 DeFi，这个不需要银行的金融系统](./defi0/)

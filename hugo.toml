@@ -4,14 +4,26 @@ defaultContentLanguage = 'zh'
 title = "Yane's Blog"
 theme = 'PaperMod'
 
+enableRobotsTXT = true
+
 # 分页
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 # 摘要长度
-summaryLength = 120
+summaryLength = 220
 
 # 启用 emoji
 enableEmoji = true
+
+# 首页输出（含 llms.txt）
+[outputs]
+  home = ['HTML', 'RSS', 'JSON', 'LLMS']
+
+[outputFormats.LLMS]
+  mediaType = 'text/plain'
+  baseName = 'llms'
+  isPlainText = true
 
 # 代码高亮
 [markup]
@@ -24,6 +36,11 @@ enableEmoji = true
   name = '归档'
   url = '/archives/'
   weight = 10
+
+[[menus.main]]
+  name = '分类'
+  url = '/categories/'
+  weight = 15
 
 [[menus.main]]
   name = '标签'
@@ -42,6 +59,8 @@ enableEmoji = true
 
 # PaperMod 主题配置
 [params]
+  description = 'Android / Kotlin 与区块链 / DeFi 技术笔记，记录学习与实践。'
+
   # 作者
   author = 'Yane'
 
@@ -73,9 +92,19 @@ enableEmoji = true
     minMatchCharLength = 0
     keys = ['title', 'permalink', 'summary', 'content']
 
+  # 首页简介
+  [params.homeInfoParams]
+    Title = "Yane's Blog"
+    Content = """
+Android / Kotlin 开发者，偶尔写写技术文章。
+主要记录 Android 开发、区块链与 DeFi 相关的学习笔记。
+"""
+    AlignSocialIconsTo = 'left'
+
   # 社交链接
-  [params.social]
-    github = 'visiongem'
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/visiongem'
 
   # 编辑链接
   [params.editPost]

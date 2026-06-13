@@ -2,7 +2,7 @@
 title: "欢迎来到我的博客"
 date: 2026-06-02T21:00:00+08:00
 draft: false
-tags: ["博客"]
+tags: ["杂谈"]
 categories: ["杂谈"]
 ---
 

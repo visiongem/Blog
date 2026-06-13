@@ -3,7 +3,7 @@ title: "从 Hexo 到 Hugo：一个极简技术博客的搭建笔记"
 date: 2026-06-03T10:00:00+08:00
 draft: false
 categories: ["工具"]
-tags: ["Hugo", "GitHub Pages", "博客"]
+tags: ["Hugo", "GitHub Pages"]
 ---
 
 ![封面图](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/other/2026/hugo0.png)
@@ -223,12 +223,13 @@ Hugo 会自动生成 `/categories/` 和 `/tags/` 页面，每个分类/标签都
 ```
 categories:
 ├── Android   — Jetpack、Compose、性能
-├── Kotlin    — 语言特性、协程、KMP
+├── 区块链    — 账户模型、DeFi、RWA
+├── AI        — 大模型、应用开发
 ├── 工具      — 开发工具、效率
 └── 杂谈      — 非代码类技术话题
 
 tags（自由组合）:
-Compose、协程、KMP、源码分析、踩坑记录...
+ViewModel、DeFi、UTXO、MoE、ADB...
 ```
 
 ## 五、踩过的坑

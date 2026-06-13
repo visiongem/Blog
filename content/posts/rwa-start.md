@@ -2,8 +2,8 @@
 title: "聊聊 RWA，它到底是什么？"
 date: 2026-06-02T10:00:00+08:00
 draft: false
-categories: ["Block"]
-tags: ["区块链", "博客"]
+categories: ["区块链"]
+tags: ["区块链", "RWA"]
 ---
 
 最近，有一个词的出现在了我的视野——**RWA**。
@@ -150,6 +150,12 @@ RWA 貌似不是那种「下一个百倍币在哪里」的故事。它的叙事�
 ---
 
 *本文写于 2026 年 6 月，数据来源包括 CoinGecko、DeFiLlama、Messari、Moody's、ainvest.com、BlockEden.xyz、Blockonomi 等。RWA 赛道变化极快，数据可能已有更新，请以最新信息为准。*
+
+---
+
+**延伸阅读**：
+- [聊聊 DeFi，这个不需要银行的金融系统](./defi0/)
+- [DeFi + RWA：链上金融的「发动机」与「燃油」](./defi-rwa/)
 
 ---
 

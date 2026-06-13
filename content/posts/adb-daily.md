@@ -3,7 +3,7 @@ title: "Android 开发最常用的 10 个 adb 命令"
 date: 2026-05-29T10:00:00+08:00
 draft: false
 categories: ["Android"]
-tags: ["Android", "博客"]
+tags: ["Android", "ADB"]
 ---
 
 ## 什么是 adb

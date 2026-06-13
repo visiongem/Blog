@@ -2,8 +2,8 @@
 title: "区块链账户模型入门笔记"
 date: 2026-05-20T10:00:00+08:00
 draft: false
-categories: ["Block"]
-tags: ["区块链", "博客"]
+categories: ["区块链"]
+tags: ["区块链", "UTXO", "钱包"]
 ---
 
 > My 学习笔记，水平有限，难免疏漏，欢迎指正。
@@ -305,6 +305,11 @@ storedKey.decryptMnemonic(userInput.toByteArray()) ?: error("wrong password")
 - 底层签名交给 Trust Wallet Core，自己写容易翻车
 
 文中如有不准确的地方，欢迎在评论区指正，一起学习。
+
+---
+
+**延伸阅读**：
+- [比特币钱包用久了会"变穷"？聊聊 UTXO 碎片化](./block_btc_utxo/)
 
 ---
 

@@ -2,8 +2,8 @@
 title: "分布式共识算法 Raft"
 date: 2026-05-11T10:00:00+08:00
 draft: false
-categories: ["Block"]
-tags: ["区块链", "博客"]
+categories: ["区块链"]
+tags: ["区块链", "Raft", "共识算法"]
 ---
 
 ## 分布式共识算法 Raft

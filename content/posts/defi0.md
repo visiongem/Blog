@@ -2,8 +2,8 @@
 title: "聊聊 DeFi，这个不需要银行的金融系统"
 date: 2026-06-08T10:00:00+08:00
 draft: false
-categories: ["Block"]
-tags: ["区块链", "博客"]
+categories: ["区块链"]
+tags: ["区块链", "DeFi"]
 ---
 
 上次聊了 RWA，这次聊聊它的「底座」——**DeFi**。
@@ -191,10 +191,9 @@ DeFi 早期完全靠「代币补贴」驱动收益，不可持续；RWA 现在�
 ---
 
 **延伸阅读**：
-- [RWA 入门科普](./RWA入门科普.md) — 与本文互为姊妹篇，了解真实世界资产如何上链
-- [DeFiLlama](https://defillama.com) — 实时查看各协议 TVL、费率、链上数据
-- [Uniswap V4 文档](https://docs.uniswap.org) — 了解 Hooks 插件机制
-- 新手入门推荐使用 [Rabby](https://rabby.io) 或 [Rainbow](https://rainbow.me) 钱包，比 MetaMask 对新用户更友好
+- [聊聊 RWA，它到底是什么？](./rwa-start/)
+- [DeFi + RWA：链上金融的「发动机」与「燃油」](./defi-rwa/)
+- [USDT / USDC 等稳定币的 mint 是怎么一回事？](./usdt_mint/)
 
 ---
 

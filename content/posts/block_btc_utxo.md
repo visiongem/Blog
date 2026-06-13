@@ -2,11 +2,9 @@
 title: "比特币钱包用久了会\"变穷\"？聊聊 UTXO 碎片化"
 date: 2026-05-21T10:00:00+08:00
 draft: false
-categories: ["Block"]
-tags: ["区块链", "博客"]
+categories: ["区块链"]
+tags: ["区块链", "UTXO", "Bitcoin"]
 ---
-
-# 比特币钱包用久了会"变穷"？聊聊 UTXO 碎片化
 
 > 上一篇笔记聊了区块链的三种账户模型。有读者（其实是我自己）好奇追问：UTXO 模型如果交易次数很多，是不是会堆一大堆零钱？
 >
@@ -211,6 +209,12 @@ data class ConsolidationTx(
 
 文中如有不准确的地方，欢迎在评论区指正，一起学习。
 
+---
+
+**延伸阅读**：
+- [区块链账户模型入门笔记](./block_account/)
+
+---
 
 ![](https://files.mdnice.com/user/3602/641e52f9-6b55-496c-85b9-ca645698d943.jpg)
 

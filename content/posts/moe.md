@@ -3,14 +3,14 @@ title: "GPT-4 背后的秘密武器：MoE（混合专家）从入门到 2026 前
 date: 2026-06-12T10:00:00+08:00
 draft: false
 categories: ["AI"]
-tags: ["AI", "博客"]
+tags: ["AI", "MoE"]
 ---
 
 今天开始补齐 AI 应用知识体系，当然也是通过 AI 来学习，好，开始吧。今日任务先了解下 MoE，帮助后续学习 AI 应用开发做铺垫。
 
 > 一个诞生于 1991 年的老架构，怎么成了大模型"降本增效"的核心方案？这篇文章从原理、动机、工程难题到最新前沿，系统讲透 MoE。
 
-![](  https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/other/2026/moe0.png)
+![](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/other/2026/moe0.png)
 
 ---
 

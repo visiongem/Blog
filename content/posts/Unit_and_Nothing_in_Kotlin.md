@@ -3,7 +3,7 @@ title: "记录 Kotlin 里 Unit 和 Nothing 的区别"
 date: 2026-06-05T10:00:00+08:00
 draft: false
 categories: ["Android"]
-tags: ["Android", "博客"]
+tags: ["Android", "Kotlin"]
 ---
 ![封面](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/android/2026/nothing.png)
 

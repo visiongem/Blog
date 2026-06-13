@@ -3,7 +3,7 @@ title: "Java/Kotlin 中什么是类型擦除？为什么它会导致类型不安
 date: 2026-06-10T10:00:00+08:00
 draft: false
 categories: ["Android"]
-tags: ["Android", "博客"]
+tags: ["Android", "Kotlin"]
 ---
 
 > 三个概念，一次讲清楚：类型擦除、类型安全，以及它们之间的"恩怨"。
