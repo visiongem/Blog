@@ -1,5 +1,5 @@
 ---
-title: "Kotlin 协程作用域：从 CoroutineScope 到 viewModelScope"
+title: "Android 中 viewModelScope、lifecycleScope、GlobalScope：协程作用域怎么选？"
 date: 2026-06-16T20:00:00+08:00
 draft: false
 categories: ["Android"]
