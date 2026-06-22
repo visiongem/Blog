@@ -19,6 +19,7 @@ tags: ["AI", "Claude Code", "Cursor", "Agent", "生产力"]
 
 可在 Claude Code、Codex、Cursor、OpenCode、Gemini 及其他 AI 智能体框架中通用。
 
+![](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/other/2026/ecc0.png)
 ---
 
 ## 它到底解决了啥
@@ -76,7 +77,7 @@ ECC 的思路是——主 AI 当包工头，遇到专项任务就派子代理去
 
 精简指南里反复强调了三件事。
 
-
+![](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/other/2026/ecc1.png)
 
 **把配置当调音，别当盖楼。** 原话是 "Don't overcomplicate — treat configuration like fine-tuning, not architecture。"不需要一次性启用所有组件。从几个常用 Skill 和两条规则开始，用着顺手再往上加。
 
@@ -167,3 +168,8 @@ cp -R rules/typescript ~/.claude/rules/ecc/
 - [精简指南（英文）](https://github.com/affaan-m/ECC/blob/main/the-shortform-guide.md)
 - [安全指南（英文）](https://github.com/affaan-m/ECC/blob/main/the-security-guide.md)
 
+---
+
+🌈关注我吖~❤️
+
+公众号：**妮K妮K妮**
