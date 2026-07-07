@@ -38,6 +38,7 @@ Write as someone who just figured something out and is taking notes so they don'
 | "值得注意的是" / "关键的是" | — | Generic AI emphasis |
 | Pseudo-inspirational closings | "让我们一起探索" | Not the author's voice |
 | "顾名思义" / "众所周知" | — | Lazy AI transitions |
+| "到底" 开头的追问句式 | "到底是什么" / "究竟为什么" / "到底怎么..." | Dramatic suspense the author never uses; plain "什么是" without 到底 is fine |
 
 ## Opening Sentence Formula
 
@@ -94,3 +95,4 @@ Any of these in draft text means the AI voice took over:
 - Any sentence starting with "值得注意的是" / "需要强调的是" / "可以看到"
 - Closings that sound like a motivational speech
 - Missing "吧/呢/吖/呀" when the tone calls for softness
+- Section headings with "到底" ("到底是什么" / "究竟为什么") — the author never builds suspense through dramatic rhetorical questions
