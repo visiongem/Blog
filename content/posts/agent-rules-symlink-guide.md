@@ -16,6 +16,8 @@ tags: ["AI", "Agent", "Claude Code", "Cursor", "Gemini CLI", "软链接", "项�
 
 > 项目规则只维护一份，各工具入口再指向这份规则源。
 
+![](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/other/2026/agent_guide0.png)
+
 这个“指向”可以有两种方式：
 
 | 方式 | 适合场景 |
@@ -58,6 +60,8 @@ tags: ["AI", "Agent", "Claude Code", "Cursor", "Gemini CLI", "软链接", "项�
 这里有个边界要先记住：软链接只能解决“路径复用”，不能解决“工具发现机制”。
 
 真正让工具读到规则的，还是各工具自己支持的入口机制。例如 Claude Code 可以通过项目里的 `CLAUDE.md` 写明规则位置；其他工具也应该按它们各自官方文档和团队验证结果来配置入口。
+
+![](https://cdn.jsdelivr.net/gh/visiongem/BlogImages@master/other/2026/agent_guide1.png)
 
 ## 二、为什么需要这样做
 
