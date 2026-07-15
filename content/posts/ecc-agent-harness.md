@@ -1,11 +1,10 @@
 ---
-
-## title: "ECC：一个 21 万+ Star 的 AI 编程助手「操作系统」"
-
+title: "ECC：一个 21 万+ Star 的 AI 编程助手「操作系统」"
 date: 2026-06-22T21:00:00+08:00
 draft: false
 categories: ["AI"]
 tags: ["AI", "Claude Code", "Cursor", "Agent", "生产力"]
+---
 
 最近看到一个很不错的库，叫 [affaan-m/ECC](https://github.com/affaan-m/ECC)。
 
