@@ -65,6 +65,28 @@ These are the author's consistent patterns across all posts — preserve them:
 5. **Section numbering** — 一、二、三... with subsections like 3.1, 3.2
 6. **Numbered takeaways at the end** — "几个关键点：" followed by numbered list
 
+## Punctuation & Formatting
+
+**Quotation marks: use full-width Chinese quotes 「“…”」 in body text — never straight ASCII quotes `"…"`.**
+
+- All emphasis and quoted phrases inside the article body use `“”` (e.g. 生成的是“Demo”，不是“产品”).
+- The ONE exception is YAML frontmatter: `title:` wrapped in single quotes may keep ASCII `"` inside it (e.g. `title: 'Vibe Coding 最大的"骗局"，...'`), and `tags`/`categories` lists use ASCII `"` as required by YAML syntax. Never convert those.
+- When editing an existing post, sweep the whole body and normalize any stray `"…"` to `“…”`.
+
+## Frontmatter (Required)
+
+Every post starts with YAML frontmatter — do not begin the file with a `#` H1 title (PaperMod renders the frontmatter `title` as the page heading, so an H1 in the body duplicates it):
+
+```yaml
+---
+title: 'Post Title'
+date: 2026-07-17T21:00:00+08:00
+draft: false
+tags: ["tag1", "tag2"]
+categories: ["分类"]
+---
+```
+
 ## Closing Formula
 
 Two options depending on the post type:
