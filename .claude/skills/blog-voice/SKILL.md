@@ -1,6 +1,6 @@
 ---
 name: blog-voice
-description: Use when writing or editing any blog post (content/posts/*.md) for 妮K妮K妮 — enforces the author's learning-in-public voice and blocks AI writing patterns the author consistently rejects
+description: Use when writing, editing, reviewing, or proofreading any blog post (content/posts/*.md) for 妮K妮K妮 — including any request to 审核/审/检查/校对/review a post. ALWAYS invoke this skill for those tasks. It enforces the author's learning-in-public voice and blocks AI writing patterns the author consistently rejects.
 ---
 
 # Blog Voice: 妮K妮K妮
@@ -11,7 +11,7 @@ description: Use when writing or editing any blog post (content/posts/*.md) for 
 
 ## Positioning Rule
 
-Write as someone who just figured something out and is taking notes so they don't forget — not as someone delivering a lecture. The reader is along for the ride, not a student in a classroom.
+Write as someone who just figured something out and is taking notes so they don't forget — not as someone delivering a lecture. **These are summary notes, not a tutorial: do not address a reader as "你".** There is no student on the other end; the writing talks to no one but the author's future self. When a sentence would use "你", either drop the pronoun (「可以看到…」「需要注意…」) or rephrase impersonally.
 
 ## Voice Markers
 
@@ -22,7 +22,6 @@ Write as someone who just figured something out and is taking notes so they don'
 | Learning-journal framing | "今天开始 Kotlin Multiplatform 的学习" |
 | Self-directed soft endings | "...吧" at end of opening sentence |
 | Metacommentary / self-talk | "咦，前面不是一直在讲 iOS 吗？" |
-| Colloquial interjections | "别急，一个一个来" |
 | Signature diary close | "今日份学习先到这。" |
 | Humble positioning | "为了自己学习", "整理一下。" |
 | Casual connectives | "因此", "那", "好" |
@@ -39,6 +38,7 @@ Write as someone who just figured something out and is taking notes so they don'
 | Pseudo-inspirational closings | "让我们一起探索" | Not the author's voice |
 | "顾名思义" / "众所周知" | — | Lazy AI transitions |
 | "到底" 开头的追问句式 | "到底是什么" / "究竟为什么" / "到底怎么..." | Dramatic suspense the author never uses; plain "什么是" without 到底 is fine |
+| 频繁用"你"称呼读者 | "你可以看到" / "你需要注意" / "如果你..." | This is a self-note, NOT teaching someone. Either drop the pronoun entirely (「可以看到...」「需要注意...」) or rephrase impersonally. Occasional 自指的"我" is fine; addressing a reader as "你" is not. |
 
 ## Opening Sentence Formula
 
@@ -72,6 +72,13 @@ These are the author's consistent patterns across all posts — preserve them:
 - All emphasis and quoted phrases inside the article body use `“”` (e.g. 生成的是“Demo”，不是“产品”).
 - The ONE exception is YAML frontmatter: `title:` wrapped in single quotes may keep ASCII `"` inside it (e.g. `title: 'Vibe Coding 最大的"骗局"，...'`), and `tags`/`categories` lists use ASCII `"` as required by YAML syntax. Never convert those.
 - When editing an existing post, sweep the whole body and normalize any stray `"…"` to `“…”`.
+
+**Markdown rendering conflicts — bold + quotes together often break.** Because the body is Markdown, combining `**加粗**` with full-width quotes (or other adjacent markers) sometimes fails to render — the `**` gets swallowed or the emphasis leaks. Watch for these:
+
+- **Bold wrapping a quoted phrase**: prefer `**“Demo”**` (bold outside the quotes), not `“**Demo**”`. Keep the `**` on the outermost edge so the markers pair cleanly.
+- **No stray space between a marker and CJK text**: `** 加粗 **` won't render — write `**加粗**` tight against the text.
+- **Punctuation glued to a closing `**`**: a full-width `，。：`right after `**` can swallow the marker. If bold doesn't render, move the punctuation outside the `**`.
+- **After writing or editing, re-scan every line that mixes `**` with `“”` or list/heading markers** and confirm the pairing is correct — this is the single most common formatting bug in these posts.
 
 ## Frontmatter (Required)
 
