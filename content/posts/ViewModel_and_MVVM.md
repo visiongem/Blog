@@ -2,6 +2,7 @@
 title: "Android 开发里如何理解 ViewModel？"
 date: 2026-06-06T10:00:00+08:00
 draft: false
+aliases: ["/posts/viewmodel-blog/"]
 categories: ["Android"]
 tags: ["Android", "ViewModel"]
 ---

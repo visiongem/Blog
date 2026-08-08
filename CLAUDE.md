@@ -55,6 +55,20 @@ categories: ["CategoryName"]
 
 Date format: ISO 8601 with `+08:00` timezone offset. `draft: true` posts only appear locally with the `-D` flag.
 
+## Renaming Posts
+
+Once a post has been published (`draft: false` and pushed), its URL is live — search engines, external links, and RSS all reference it. Renaming the file changes the slug and breaks the old URL (404).
+
+**When you rename or move a post, always add an `aliases` entry to its frontmatter** so the old URL keeps working via a generated redirect page:
+
+```yaml
+aliases: ["/posts/<old-slug>/"]   # lowercase, must match the URL as it was actually served
+```
+
+Gotchas:
+- Hugo lowercases all real page URLs (`ViewModel_and_MVVM.md` → `/posts/viewmodel_and_mvvm/`), but does **not** lowercase `aliases` paths. Write the alias in the same lowercase form the old URL was served under.
+- If a rename is unavoidable, add the alias in the **same commit** as the rename.
+
 ## Images
 
 Images are hosted externally via jsDelivr CDN + GitHub (not stored in this repo). The URL pattern is:
