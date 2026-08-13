@@ -1,7 +1,7 @@
 ---
 title: '第 3 篇：CLAUDE.md 越来越臃肿怎么办？——健检的删除、改写、迁移指南'
 date: 2026-08-12T21:00:00+08:00
-draft: true
+draft: false
 tags: ["CLAUDE.md", "AI 工程", "工具使用"]
 categories: ["AI 工作流"]
 ---

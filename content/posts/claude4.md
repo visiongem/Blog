@@ -1,7 +1,7 @@
 ---
 title: '第 5 篇：一条规则，值得占用 AI 的注意力吗？——让规则持续进化的长期维护机制'
 date: 2026-08-14T21:00:00+08:00
-draft: true
+draft: false
 tags: ["AI", "Claude Code", "Codex", "Agent", "项目治理"]
 categories: ["AI"]
 ---
