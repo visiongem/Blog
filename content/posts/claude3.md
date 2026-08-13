@@ -1,5 +1,5 @@
 ---
-title: '别把所有规则塞进 CLAUDE.md——CLAUDE.md、Rules、Skill、Hook 怎么分工'
+title: '第 4 篇：别把所有规则塞进 CLAUDE.md——CLAUDE.md、Rules、Skill、Hook 怎么分工'
 date: 2026-08-13T21:00:00+08:00
 draft: true
 tags: ["AI", "Claude Code", "Codex", "Agent", "项目治理"]

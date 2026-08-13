@@ -1,5 +1,5 @@
 ---
-title: 'CLAUDE.md 健检指南——如何删除、改写、迁移一份越来越臃肿的 AI 规则文件'
+title: '第 3 篇：CLAUDE.md 越来越臃肿怎么办？——健检的删除、改写、迁移指南'
 date: 2026-08-12T21:00:00+08:00
 draft: true
 tags: ["CLAUDE.md", "AI 工程", "工具使用"]
