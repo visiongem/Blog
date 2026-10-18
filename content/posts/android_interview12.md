@@ -36,8 +36,8 @@ tags: ["Android", "面试", "网络", "性能优化"]
 
 常用的四种方法，目的都是让 UI 代码在主线程执行：
 
-1. **`View.post {}`**：通过 View 投递任务。View 已经 attach 时，会使用它关联的 Handler；还没有 attach 时，任务通常先保存，等 attach 后再执行。
-2. **`Activity.runOnUiThread {}`**：当前就在主线程则直接执行，否则通过 Handler 投递到主线程。
+1. `View.post {}`：通过 View 投递任务。View 已经 attach 时，会使用它关联的 Handler；还没有 attach 时，任务通常先保存，等 attach 后再执行。
+2. `Activity.runOnUiThread {}`：当前就在主线程则直接执行，否则通过 Handler 投递到主线程。
 3. **主线程 Handler**：用 `Handler(Looper.getMainLooper()).post {}` 指定任务在主线程执行。页面销毁时取消不再需要的回调，避免延迟任务一直持有页面。
 4. **Kotlin 协程**：耗时工作放到合适的调度器，结果回来后在 `Dispatchers.Main` 更新界面。协程要绑定生命周期。
 
